@@ -12,7 +12,10 @@ font-family:Montserrat,sans-serif;
 
 .hero{
 height:100vh;
-background:url("image/hero.jpg") center center/cover;
+background-image:url("./image/hero.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 position:relative;
 }
 
