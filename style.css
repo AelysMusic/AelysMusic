@@ -21,10 +21,10 @@ a {
 /* --- HERO SECTION --- */
 .hero {
     position: relative;
-    height: 90vh;
+    height: 100vh;
     min-height: 600px;
     /* Remplace 'hero-bg.jpg' par ton illustration d'anime avec les 3 personnages */
-    background: url('hero-bg.jpg') center/cover no-repeat; 
+    background: background: 496df6fe-9f8b-41d9-ae7e-6b8316d0b7df center center/cover no-repeat; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
