@@ -199,14 +199,19 @@ repeat(4,1fr);
 gap:20px;
 }
 
-.card{
-background:#080d1d;
-border:1px solid rgba(255,255,255,.05);
+.cards{
+    max-width:1200px;
 
-padding:20px;
-border-radius:10px;
+    margin:40px auto;
 
-min-height:450px;
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,minmax(250px,1fr));
+
+    gap:20px;
+
+    align-items:start;
 }
 
 .card h4{
@@ -262,7 +267,13 @@ gap:5px;
 
     transition:.3s;
 }
-
+.card{
+    display:flex;
+    flex-direction:column;
+}
+.card-btn{
+    margin-top:auto;
+}
 .card-btn:hover{
     background:rgba(255,0,80,.15);
 }
