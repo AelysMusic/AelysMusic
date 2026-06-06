@@ -244,7 +244,28 @@ gap:5px;
     font-size:14px;
     opacity:.7;
 }
+.card-btn{
+    display:block;
+    text-align:center;
 
+    margin-top:30px;
+
+    padding:12px;
+
+    border:1px solid rgba(255,0,80,.25);
+
+    border-radius:8px;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.card-btn:hover{
+    background:rgba(255,0,80,.15);
+}
 footer{
 text-align:center;
 padding:60px;
