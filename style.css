@@ -173,18 +173,18 @@ background:#0066ff;
 }
 
 .wave{
-flex:1;
-height:40px;
+    flex:1;
+    height:12px;
 
-background:
-linear-gradient(
-90deg,
-#0066ff,
-#ff2f65
-);
+    background:linear-gradient(
+    90deg,
+    #0066ff,
+    #ff2f65
+    );
 
-opacity:.5;
-border-radius:20px;
+    border-radius:20px;
+
+    opacity:.8;
 }
 
 .cards{
