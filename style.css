@@ -140,7 +140,7 @@ nav a{
     width:100%;
     height:auto;
     display:block;
-    mix-blend-mode:screen;
+    mix-blend-mode:lighten;
 }
 
 .player-box span:last-child{
