@@ -13,10 +13,13 @@ body{
 /* HERO */
 
 .hero{
-    min-height:70vh;
+    height:700px;
+    position:relative;
 
-    background:url("image/hero.png") center 20px no-repeat;
-    background-size:90%;
+    background:url("image/hero.png") center top no-repeat;
+    background-size:95%;
+
+    overflow:hidden;
 }
 
 .overlay{
