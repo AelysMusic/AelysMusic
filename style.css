@@ -13,9 +13,10 @@ body{
 /* HERO */
 
 .hero{
-    height:55vh;
-    position:relative;
-    background:url("image/hero.png") center center/cover no-repeat;
+    min-height:70vh;
+
+    background:url("image/hero.png") center 20px no-repeat;
+    background-size:90%;
 }
 
 .overlay{
@@ -80,7 +81,7 @@ nav a{
 
 .player-box{
     max-width:1200px;
-    margin:-50px auto 40px;
+    margin:-40px auto 40px;
     position:relative;
     z-index:100;
     background:rgba(5,8,20,.92);
@@ -150,7 +151,7 @@ nav a{
     border:1px solid rgba(255,255,255,.05);
     border-radius:12px;
     padding:20px;
-    min-height:320px;
+    min-height:380px;
     display:flex;
     flex-direction:column;
 }
