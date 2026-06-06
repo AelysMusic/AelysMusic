@@ -13,7 +13,7 @@ body{
 /* HERO */
 
 .hero{
-    height:700px;
+    height:55vh;
     position:relative;
     background:url("image/hero.png") center center/cover no-repeat;
 }
@@ -80,26 +80,17 @@ nav a{
 
 .player-box{
     max-width:1200px;
-
     margin:-50px auto 40px;
-
     position:relative;
     z-index:100;
-
     background:rgba(5,8,20,.92);
-
     border:1px solid rgba(255,255,255,.08);
-
     border-radius:12px;
-
-    padding:25px;
-
+    padding:15px;
     display:flex;
     align-items:center;
     gap:20px;
-
     backdrop-filter:blur(10px);
-
     box-shadow:
     0 0 15px rgba(255,0,80,.08),
     0 0 15px rgba(0,102,255,.08);
@@ -108,19 +99,15 @@ nav a{
 .music-cover{
     width:90px;
     height:90px;
-
     border-radius:8px;
-
     display:flex;
     align-items:center;
     justify-content:center;
-
     background:linear-gradient(
     45deg,
     #0066ff,
     #ff2f65
     );
-
     font-size:2rem;
 }
 
@@ -134,9 +121,7 @@ nav a{
 .wave{
     flex:1;
     height:12px;
-
     border-radius:20px;
-
     background:
     linear-gradient(
     90deg,
@@ -153,43 +138,31 @@ nav a{
 
 .cards{
     max-width:1200px;
-
     margin:40px auto;
-
     display:grid;
-
     grid-template-columns:
     repeat(4,1fr);
-
     gap:20px;
 }
 
 .card{
     background:#080d1d;
-
     border:1px solid rgba(255,255,255,.05);
-
     border-radius:12px;
-
     padding:20px;
-
-    min-height:450px;
-
+    min-height:320px;
     display:flex;
     flex-direction:column;
 }
 
 .card h4{
     text-align:center;
-
     color:#ff2f65;
-
     margin-bottom:20px;
 }
 
 .card img{
     width:100%;
-
     border-radius:8px;
 }
 
@@ -199,7 +172,6 @@ nav a{
 
 .card li{
     padding:8px 0;
-
     border-bottom:1px solid rgba(255,255,255,.05);
 }
 
@@ -207,10 +179,8 @@ nav a{
 
 .gallery{
     display:grid;
-
     grid-template-columns:
     1fr 1fr 1fr;
-
     gap:5px;
 }
 
@@ -220,27 +190,16 @@ nav a{
 .card-btn{
 
     margin-top:auto;
-
     display:block;
-
     width:100%;
-
     text-align:center;
-
     padding:12px;
-
     border-radius:8px;
-
     border:1px solid rgba(255,0,80,.25);
-
     background:transparent;
-
     color:white;
-
     text-decoration:none;
-
     cursor:pointer;
-
     transition:.3s;
 }
 
@@ -253,11 +212,8 @@ nav a{
 
 footer{
     text-align:center;
-
-    padding:60px 20px;
-
+    padding:20px;
     font-family:Cinzel;
-
     font-size:1.2rem;
 }
 
