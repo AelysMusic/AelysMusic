@@ -18,7 +18,27 @@ font-family:Montserrat,sans-serif;
 }
 
 .overlay{
-display:none;
+    position:absolute;
+    inset:0;
+
+    background:
+    linear-gradient(
+    90deg,
+    rgba(3,3,13,.35),
+    rgba(3,3,13,.10)
+    ),
+
+    radial-gradient(
+    circle at 30% 40%,
+    rgba(0,102,255,.15),
+    transparent 40%
+    ),
+
+    radial-gradient(
+    circle at 70% 40%,
+    rgba(255,0,70,.15),
+    transparent 40%
+    );
 }
 
 nav{
