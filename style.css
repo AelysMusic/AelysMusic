@@ -187,7 +187,7 @@ background:#0066ff;
     opacity:.8;
 }
 
-.cards{
+.card{
 max-width:1200px;
 margin:auto;
 
@@ -199,7 +199,7 @@ repeat(4,1fr);
 gap:20px;
 }
 
-.cards{
+.card{
     max-width:1200px;
 
     margin:40px auto;
