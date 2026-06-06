@@ -11,12 +11,10 @@ font-family:Montserrat,sans-serif;
 }
 
 .hero{
-height:100vh;
-background-image:url("./image/hero.png");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-position:relative;
+  height:850px;
+  position:relative;
+  background:url("image/hero.png") center center/cover no-repeat;
+  overflow:visible;
 }
 
 .overlay{
@@ -132,7 +130,11 @@ background:#0066ff;
 }
 
 .player-box{
-max-width:1200px;
+    max-width:1200px;
+    margin:-120px auto 40px;
+    position:relative;
+    z-index:100;
+}
 
 margin:-60px auto 40px;
 
