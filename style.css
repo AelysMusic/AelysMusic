@@ -79,7 +79,44 @@ nav a{
     gap:20px;
     font-size:1.2rem;
 }
+.social a{
+    color:white;
+    text-decoration:none;
 
+    width:40px;
+    height:40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    transition:.3s;
+}
+
+.social a:hover{
+    transform:translateY(-3px);
+}
+
+.social .fa-youtube:hover{
+    color:#ff0000;
+}
+
+.social .fa-deezer:hover{
+    color:#ff0090;
+}
+
+.social .fa-spotify:hover{
+    color:#1DB954;
+}
+
+.social .fa-tiktok:hover{
+    color:#00f2ea;
+}
+.social .fa-apple:hover{
+    color:#cccccc;
+}
 /* LECTEUR */
 
 .player-box{
