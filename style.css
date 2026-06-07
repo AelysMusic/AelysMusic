@@ -144,10 +144,6 @@ nav a{
     border-radius:12px;
     overflow:hidden;
 
-    box-shadow:
-    0 0 15px rgba(0,102,255,.25),
-    0 0 15px rgba(255,47,101,.25);
-
     flex-shrink:0;
 }
 
