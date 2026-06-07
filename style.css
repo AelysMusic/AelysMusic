@@ -294,7 +294,14 @@ nav a{
 }
 
 /* MUSIQUES POPULAIRES */
+.music-list a{
+    color:white;
+    text-decoration:none;
+}
 
+.music-list a:hover{
+    color:#ff2f65;
+}
 .music-list li{
     display:flex;
     align-items:center;
