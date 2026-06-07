@@ -185,7 +185,7 @@ nav a{
 .cards{
     max-width:1200px;
     margin:40px auto;
-
+    margin-bottom:-180px;
     display:grid;
     grid-template-columns:repeat(4,1fr);
 
@@ -200,7 +200,14 @@ nav a{
     border:1px solid rgba(255,255,255,.05);
     border-radius:12px;
     padding:20px;
-    min-height:280px;
+    min-height:380px;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.card-btn{
+    margin-top:auto;
 }
 
 .card h4{
