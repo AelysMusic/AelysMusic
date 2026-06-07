@@ -200,10 +200,11 @@ nav a{
     border:1px solid rgba(255,255,255,.05);
     border-radius:12px;
     padding:20px;
-    min-height:380px;
 
     display:flex;
     flex-direction:column;
+
+    min-height:300px;
 }
 
 .card-btn{
@@ -258,6 +259,8 @@ nav a{
     text-decoration:none;
     cursor:pointer;
     transition:.3s;
+    margin-top:auto;
+
 }
 
 .card button:hover,
