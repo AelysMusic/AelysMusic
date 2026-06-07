@@ -299,27 +299,28 @@ nav a{
 
 /* MUSIQUES POPULAIRES */
 
-.music-list{
-    list-style:none;
-    padding:0;
-}
-
 .music-list li{
     display:flex;
     align-items:center;
-    gap:10px;
 
     padding:12px 0;
 
     border-bottom:1px solid rgba(255,255,255,.08);
+
+    font-size:15px;
+}
+
+.music-list li i{
+    margin-right:10px;
+    flex-shrink:0;
 }
 
 .music-list li span{
     margin-left:auto;
     opacity:.7;
     font-size:14px;
+    white-space:nowrap;
 }
-
 .music-list li i{
     color:white;
     opacity:.8;
@@ -329,7 +330,9 @@ nav a{
     color:#ff2f65;
     cursor:pointer;
 }
-
+.song-title{
+    flex:1;
+}
 /* FOOTER */
 
 footer{
