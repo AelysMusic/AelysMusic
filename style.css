@@ -332,6 +332,8 @@ nav a{
 .song-title{
     flex:1;
     color:white;
+
+    margin-right:15px;
 }
 
 .music-list li span:last-child{
