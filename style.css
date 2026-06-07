@@ -343,6 +343,15 @@ nav a{
 }
 /* FOOTER */
 
+.footer-banner{
+    width:100%;
+    margin-top:40px;
+}
+
+.footer-banner img{
+    width:100%;
+    display:block;
+}
 footer{
     text-align:center;
     padding:60px;
