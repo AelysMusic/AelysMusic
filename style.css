@@ -191,6 +191,7 @@ nav a{
     gap:20px;
     position:relative;
     z-index:10;
+    margin-top:-220px;
 }
 
 .card{
