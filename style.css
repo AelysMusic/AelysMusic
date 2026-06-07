@@ -294,17 +294,17 @@ nav a{
 }
 
 /* MUSIQUES POPULAIRES */
-.music-list a{
-    color:white;
-    text-decoration:none;
+
+.music-list{
+    list-style:none;
+    padding:0;
+    margin:0;
 }
 
-.music-list a:hover{
-    color:#ff2f65;
-}
 .music-list li{
     display:flex;
     align-items:center;
+    gap:12px;
 
     padding:12px 0;
 
@@ -313,28 +313,31 @@ nav a{
     font-size:15px;
 }
 
-.music-list li i{
-    margin-right:10px;
+.play-btn{
+    color:white;
+    text-decoration:none;
+
+    font-size:18px;
+
     flex-shrink:0;
+
+    transition:.3s;
 }
 
-.music-list li span{
-    margin-left:auto;
+.play-btn:hover{
+    color:#ff2f65;
+    transform:scale(1.15);
+}
+
+.song-title{
+    flex:1;
+    color:white;
+}
+
+.music-list li span:last-child{
     opacity:.7;
     font-size:14px;
     white-space:nowrap;
-}
-.music-list li i{
-    color:white;
-    opacity:.8;
-}
-
-.music-list li i:hover{
-    color:#ff2f65;
-    cursor:pointer;
-}
-.song-title{
-    flex:1;
 }
 /* FOOTER */
 
