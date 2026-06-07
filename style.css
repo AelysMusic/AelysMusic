@@ -185,13 +185,14 @@ nav a{
 .cards{
     max-width:1200px;
     margin:40px auto;
+
     display:grid;
-    grid-template-columns:
-    repeat(4,1fr);
+    grid-template-columns:repeat(4,1fr);
+
     gap:20px;
+
     position:relative;
     z-index:10;
-    margin-top:-220px;
 }
 
 .card{
@@ -349,7 +350,7 @@ nav a{
 .footer-banner{
     width:100%;
 
-    margin-top:-120px;
+    margin-top:-220px;
 
     position:relative;
     z-index:1;
